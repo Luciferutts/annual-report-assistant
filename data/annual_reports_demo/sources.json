@@ -1,0 +1,31 @@
+{
+  "title": "贵州茅台历史年度报告公开演示集",
+  "retrieved_at": "2026-11-01",
+  "reports": [
+    {
+      "file": "moutai-2024.pdf",
+      "display_name": "贵州茅台2024年年度报告.pdf",
+      "year": 2024,
+      "url": "https://www.moutaichina.com/mtgf/articleFileDir/2025-04/08/8055b7bed7db41bdbc617f4c9b9ec591.pdf",
+      "publisher": "贵州茅台官网",
+      "sha256": "5299f4940e2ce4e91084b73dc457d558b9d335fa76fbfee6227e4254eb7f4a30",
+      "bytes": 3626217,
+      "evidence_pdf_page": 5
+    },
+    {
+      "file": "moutai-2023.pdf",
+      "display_name": "贵州茅台2023年年度报告.pdf",
+      "year": 2023,
+      "url": "https://dataclouds.cninfo.com.cn/shgonggao/2024/2024-04-03/93d5007bf0fa11ee84b5fa163e26e5de.pdf",
+      "publisher": "巨潮资讯",
+      "sha256": "2125ff97a452ea79b0d784e2432f7d224b6aecc330b644b593477d69e22f4ed1",
+      "bytes": 3563819,
+      "evidence_pdf_page": 5
+    }
+  ],
+  "notes": [
+    "示例仅用于资料提取和核对流程演示，不代表最新经营情况。",
+    "页码为PDF物理页码。",
+    "原文版权及披露责任属于发布主体。"
+  ]
+}

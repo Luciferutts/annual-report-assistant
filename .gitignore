@@ -1,0 +1,47 @@
+# Python environments, caches and build products
+.venv/
+.openharness-venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+build/
+dist/
+.uv-cache/
+
+# Private configuration, credentials and runtime documents
+.env
+.env.*
+!.env.example
+**/.openharness/
+**/.claude/settings.local.json
+credentials.json
+*.pem
+*.key
+*.log
+data/uploads/
+data/workspaces/
+data/runtime/
+
+# Frontend dependencies and optional generated dashboard state
+**/node_modules/
+autopilot-dashboard/dist/
+autopilot-dashboard/public/snapshot.json
+docs/autopilot/snapshot.json
+
+# Editor and operating-system files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# uv.lock and the attributed public demo PDFs are intentionally committed.

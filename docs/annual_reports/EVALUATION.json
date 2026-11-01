@@ -1,0 +1,301 @@
+{
+  "evaluated_at": "2026-11-01",
+  "scope": "同一家中文上市公司两份历史年报，非通用准确率基准",
+  "source_reports": 2,
+  "source_pages_manually_reviewed": [
+    "2024 PDF p5",
+    "2023 PDF p5"
+  ],
+  "extraction_seconds": 5.848,
+  "amount_checks": [
+    {
+      "report": "贵州茅台2024年年度报告.pdf",
+      "year": 2024,
+      "metric": "revenue",
+      "expected": "170899152276.34",
+      "actual": "170899152276.34",
+      "correct": true,
+      "source_correct": true
+    },
+    {
+      "report": "贵州茅台2024年年度报告.pdf",
+      "year": 2023,
+      "metric": "revenue",
+      "expected": "147693604994.14",
+      "actual": "147693604994.14",
+      "correct": true,
+      "source_correct": true
+    },
+    {
+      "report": "贵州茅台2024年年度报告.pdf",
+      "year": 2024,
+      "metric": "profit_parent",
+      "expected": "86228146421.62",
+      "actual": "86228146421.62",
+      "correct": true,
+      "source_correct": true
+    },
+    {
+      "report": "贵州茅台2024年年度报告.pdf",
+      "year": 2023,
+      "metric": "profit_parent",
+      "expected": "74734071550.75",
+      "actual": "74734071550.75",
+      "correct": true,
+      "source_correct": true
+    },
+    {
+      "report": "贵州茅台2024年年度报告.pdf",
+      "year": 2024,
+      "metric": "profit_deducted",
+      "expected": "86240905977.42",
+      "actual": "86240905977.42",
+      "correct": true,
+      "source_correct": true
+    },
+    {
+      "report": "贵州茅台2024年年度报告.pdf",
+      "year": 2023,
+      "metric": "profit_deducted",
+      "expected": "74752564425.52",
+      "actual": "74752564425.52",
+      "correct": true,
+      "source_correct": true
+    },
+    {
+      "report": "贵州茅台2024年年度报告.pdf",
+      "year": 2024,
+      "metric": "operating_cashflow",
+      "expected": "92463692168.43",
+      "actual": "92463692168.43",
+      "correct": true,
+      "source_correct": true
+    },
+    {
+      "report": "贵州茅台2024年年度报告.pdf",
+      "year": 2023,
+      "metric": "operating_cashflow",
+      "expected": "66593247721.09",
+      "actual": "66593247721.09",
+      "correct": true,
+      "source_correct": true
+    },
+    {
+      "report": "贵州茅台2024年年度报告.pdf",
+      "year": 2024,
+      "metric": "total_assets",
+      "expected": "298944579918.70",
+      "actual": "298944579918.70",
+      "correct": true,
+      "source_correct": true
+    },
+    {
+      "report": "贵州茅台2024年年度报告.pdf",
+      "year": 2023,
+      "metric": "total_assets",
+      "expected": "272699660092.25",
+      "actual": "272699660092.25",
+      "correct": true,
+      "source_correct": true
+    },
+    {
+      "report": "贵州茅台2024年年度报告.pdf",
+      "year": 2024,
+      "metric": "equity_parent",
+      "expected": "233105984399.47",
+      "actual": "233105984399.47",
+      "correct": true,
+      "source_correct": true
+    },
+    {
+      "report": "贵州茅台2024年年度报告.pdf",
+      "year": 2023,
+      "metric": "equity_parent",
+      "expected": "215668571607.43",
+      "actual": "215668571607.43",
+      "correct": true,
+      "source_correct": true
+    },
+    {
+      "report": "贵州茅台2023年年度报告.pdf",
+      "year": 2023,
+      "metric": "revenue",
+      "expected": "147693604994.14",
+      "actual": "147693604994.14",
+      "correct": true,
+      "source_correct": true
+    },
+    {
+      "report": "贵州茅台2023年年度报告.pdf",
+      "year": 2023,
+      "metric": "profit_parent",
+      "expected": "74734071550.75",
+      "actual": "74734071550.75",
+      "correct": true,
+      "source_correct": true
+    },
+    {
+      "report": "贵州茅台2023年年度报告.pdf",
+      "year": 2023,
+      "metric": "profit_deducted",
+      "expected": "74752564425.52",
+      "actual": "74752564425.52",
+      "correct": true,
+      "source_correct": true
+    },
+    {
+      "report": "贵州茅台2023年年度报告.pdf",
+      "year": 2023,
+      "metric": "operating_cashflow",
+      "expected": "66593247721.09",
+      "actual": "66593247721.09",
+      "correct": true,
+      "source_correct": true
+    },
+    {
+      "report": "贵州茅台2023年年度报告.pdf",
+      "year": 2023,
+      "metric": "total_assets",
+      "expected": "272699660092.25",
+      "actual": "272699660092.25",
+      "correct": true,
+      "source_correct": true
+    },
+    {
+      "report": "贵州茅台2023年年度报告.pdf",
+      "year": 2023,
+      "metric": "equity_parent",
+      "expected": "215668571607.43",
+      "actual": "215668571607.43",
+      "correct": true,
+      "source_correct": true
+    }
+  ],
+  "growth_checks": [
+    {
+      "metric": "revenue",
+      "actual": "15.71",
+      "expected": "15.71",
+      "correct": true
+    },
+    {
+      "metric": "profit_parent",
+      "actual": "15.38",
+      "expected": "15.38",
+      "correct": true
+    },
+    {
+      "metric": "profit_deducted",
+      "actual": "15.37",
+      "expected": "15.37",
+      "correct": true
+    },
+    {
+      "metric": "operating_cashflow",
+      "actual": "38.85",
+      "expected": "38.85",
+      "correct": true
+    },
+    {
+      "metric": "total_assets",
+      "actual": "9.62",
+      "expected": "9.62",
+      "correct": true
+    },
+    {
+      "metric": "equity_parent",
+      "actual": "8.09",
+      "expected": "8.09",
+      "correct": true
+    }
+  ],
+  "local_qa_checks": [
+    {
+      "case": "使用说明",
+      "question": "我该怎么使用你",
+      "correct": true,
+      "source_count": 0
+    },
+    {
+      "case": "隐私边界",
+      "question": "数据会发给模型吗",
+      "correct": true,
+      "source_count": 0
+    },
+    {
+      "case": "营收同比",
+      "question": "2024年营业收入同比增长多少",
+      "correct": true,
+      "source_count": 2
+    },
+    {
+      "case": "归母同比",
+      "question": "归母净利润同比变化多少",
+      "correct": true,
+      "source_count": 1
+    },
+    {
+      "case": "扣非同比",
+      "question": "扣非净利润同比变化多少",
+      "correct": true,
+      "source_count": 1
+    },
+    {
+      "case": "现金流同比",
+      "question": "经营现金流同比变化多少",
+      "correct": true,
+      "source_count": 2
+    },
+    {
+      "case": "总资产同比",
+      "question": "总资产同比变化多少",
+      "correct": true,
+      "source_count": 1
+    },
+    {
+      "case": "净资产同比",
+      "question": "归母净资产同比变化多少",
+      "correct": true,
+      "source_count": 2
+    },
+    {
+      "case": "不存在的年度",
+      "question": "2099年营业收入是多少",
+      "correct": true,
+      "source_count": 0
+    },
+    {
+      "case": "历史同比边界",
+      "question": "2023年营业收入同比是多少",
+      "correct": true,
+      "source_count": 1
+    },
+    {
+      "case": "经营原因证据",
+      "question": "2024年营业收入增长的原因是什么",
+      "correct": true,
+      "source_count": 3
+    }
+  ],
+  "summary": {
+    "amounts_checked": 18,
+    "amounts_correct": 18,
+    "sources_correct": 18,
+    "growth_checked": 6,
+    "growth_correct": 6,
+    "local_qa_checked": 11,
+    "local_qa_passed": 11,
+    "review_gate_before": 0,
+    "review_gate_after": 6,
+    "registered_tools": [
+      "annual_report_search",
+      "annual_report_page",
+      "annual_report_compare"
+    ]
+  },
+  "limitations": [
+    "金额金标准由人工核对原PDF第5页建立；样本仅1家公司2份年报。",
+    "没有用户计时对照实验，不能据此声称节省时间或提高研究效率百分比。",
+    "本评测不调用模型；模型解读需要另行验证，且不能替代财务复核。"
+  ]
+}

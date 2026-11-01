@@ -1,0 +1,34 @@
+{
+  "company": "贵州茅台酒股份有限公司",
+  "unit": "元",
+  "currency": "CNY",
+  "scope": "consolidated",
+  "pdf_page": 5,
+  "metrics": {
+    "2024": {
+      "revenue": "170899152276.34",
+      "profit_parent": "86228146421.62",
+      "profit_deducted": "86240905977.42",
+      "operating_cashflow": "92463692168.43",
+      "total_assets": "298944579918.70",
+      "equity_parent": "233105984399.47"
+    },
+    "2023": {
+      "revenue": "147693604994.14",
+      "profit_parent": "74734071550.75",
+      "profit_deducted": "74752564425.52",
+      "operating_cashflow": "66593247721.09",
+      "total_assets": "272699660092.25",
+      "equity_parent": "215668571607.43"
+    }
+  },
+  "change_pct_2024": {
+    "revenue": "15.71",
+    "profit_parent": "15.38",
+    "profit_deducted": "15.37",
+    "operating_cashflow": "38.85",
+    "total_assets": "9.62",
+    "equity_parent": "8.09"
+  },
+  "verification": "人工核对两份官方PDF物理第5页；程序计算同比与披露百分比交叉核对。"
+}

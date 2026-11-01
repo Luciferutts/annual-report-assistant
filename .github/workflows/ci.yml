@@ -1,0 +1,42 @@
+name: Annual report assistant checks
+
+on:
+  push:
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  annual-reports:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    env:
+      DEEPSEEK_API_KEY: ""
+    steps:
+      - name: Isolate configuration and test data
+        env:
+          REPORT_CI_ROOT: ${{ runner.temp }}/annual-report-tests
+        run: |
+          echo "OPENHARNESS_CONFIG_DIR=$REPORT_CI_ROOT/config" >> "$GITHUB_ENV"
+          echo "OPENHARNESS_DATA_DIR=$REPORT_CI_ROOT/data" >> "$GITHUB_ENV"
+          echo "OPENHARNESS_LOGS_DIR=$REPORT_CI_ROOT/logs" >> "$GITHUB_ENV"
+          echo "ANNUAL_REPORT_DATA_DIR=$REPORT_CI_ROOT/reports" >> "$GITHUB_ENV"
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Install pinned uv
+        run: python -m pip install uv==0.13.6
+      - name: Install locked dependencies
+        run: uv sync --locked --extra reports --extra dev
+      - name: Check annual report code
+        run: uv run --locked --extra reports --extra dev ruff check src/openharness/annual_reports tests/test_annual_reports
+      - name: Run offline annual report tests
+        run: uv run --locked --extra reports --extra dev pytest tests/test_annual_reports -q
+      - name: Verify public sample workflow
+        run: uv run --locked --extra reports python scripts/evaluate_annual_reports.py
+      - name: Build distributable wheel
+        run: uv build --wheel

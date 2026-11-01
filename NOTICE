@@ -1,0 +1,20 @@
+Annual Report Assistant
+
+This repository includes OpenHarness framework code from:
+https://github.com/HKUDS/OpenHarness
+Source baseline: 1498a87806d5a3a7dc159b2eb81d9283dc21cd99
+
+OpenHarness is licensed under the MIT License.
+Copyright (c) 2025 OpenHarness Contributors.
+The original license and copyright notice are retained in LICENSE.
+
+The annual-report application adds local PDF extraction and source-page
+rendering, financial review and comparison, a restricted native tool bridge,
+opt-in model interpretation, export, tests, and product documentation.
+The framework's original authorship is not attributed to this application's
+maintainers. Original framework documentation is retained in
+README.openharness.md and README.openharness.zh-CN.md.
+
+Public annual reports and other third-party reference material are identified
+in THIRD_PARTY_NOTICES.md. The MIT license for code does not purport to grant
+rights to those third-party documents.

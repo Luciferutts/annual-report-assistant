@@ -1,0 +1,124 @@
+{
+  "scope": "真实本机HTTP服务；只操作两份内置公开年报；复核依据为已人工检查的PDF第5页金标准",
+  "checks": [
+    {
+      "check": "three_native_tools",
+      "passed": true
+    },
+    {
+      "check": "missing_csrf_rejected",
+      "passed": true
+    },
+    {
+      "check": "foreign_origin_rejected",
+      "passed": true
+    },
+    {
+      "check": "usage_direct_local",
+      "passed": true
+    },
+    {
+      "check": "source_amount_revenue2024",
+      "passed": true
+    },
+    {
+      "check": "source_amount_revenue2023",
+      "passed": true
+    },
+    {
+      "check": "source_amount_profit_parent2024",
+      "passed": true
+    },
+    {
+      "check": "source_amount_profit_parent2023",
+      "passed": true
+    },
+    {
+      "check": "source_amount_profit_deducted2024",
+      "passed": true
+    },
+    {
+      "check": "source_amount_profit_deducted2023",
+      "passed": true
+    },
+    {
+      "check": "source_amount_operating_cashflow2024",
+      "passed": true
+    },
+    {
+      "check": "source_amount_operating_cashflow2023",
+      "passed": true
+    },
+    {
+      "check": "source_amount_total_assets2024",
+      "passed": true
+    },
+    {
+      "check": "source_amount_total_assets2023",
+      "passed": true
+    },
+    {
+      "check": "source_amount_equity_parent2024",
+      "passed": true
+    },
+    {
+      "check": "source_amount_equity_parent2023",
+      "passed": true
+    },
+    {
+      "check": "all_six_comparisons_ready",
+      "passed": true
+    },
+    {
+      "check": "growth_revenue",
+      "passed": true
+    },
+    {
+      "check": "growth_profit_parent",
+      "passed": true
+    },
+    {
+      "check": "growth_profit_deducted",
+      "passed": true
+    },
+    {
+      "check": "growth_operating_cashflow",
+      "passed": true
+    },
+    {
+      "check": "growth_total_assets",
+      "passed": true
+    },
+    {
+      "check": "growth_equity_parent",
+      "passed": true
+    },
+    {
+      "check": "source_page_png",
+      "passed": true
+    },
+    {
+      "check": "no_remote_assets_policy",
+      "passed": true
+    },
+    {
+      "check": "source_page_text",
+      "passed": true
+    },
+    {
+      "check": "local_growth_with_source",
+      "passed": true
+    },
+    {
+      "check": "export_markdown",
+      "passed": true
+    },
+    {
+      "check": "export_csv",
+      "passed": true
+    }
+  ],
+  "passed": 29,
+  "total": 29,
+  "live_model_check": null
+}
